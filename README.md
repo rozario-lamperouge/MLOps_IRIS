@@ -21,34 +21,6 @@ mlops-iris/
 
 ---
 
-## 🎯 What You'll Learn (4 Hours)
-
-### **Hour 1: Setup & Streamlit Basics**
-- Install dependencies
-- Understand the Streamlit interface
-- Explore the Iris dataset
-- Learn about Random Forest models
-
-### **Hour 2: MLflow Experiment Tracking**
-- Train models with different hyperparameters
-- Log experiments to MLflow
-- Compare runs in MLflow UI
-- Find the best model
-
-### **Hour 3: Docker Containerization**
-- Build Docker image
-- Run containerized app
-- Understand reproducibility
-- Share your environment
-
-### **Hour 4: Deployment & CI/CD**
-- Deploy to Streamlit Cloud
-- Share your app with the world
-- Understand auto-deployment from GitHub
-- Best practices for production
-
----
-
 ## 🚀 Quick Start (Local Development)
 
 ### Prerequisites
@@ -142,7 +114,7 @@ Now you have:
 
 ## 🧪 Training Exercises
 
-### Exercise 1: Baseline Model (15 min)
+### Exercise 1: Baseline Model
 1. Go to "Train Model" page
 2. Use default parameters
 3. Click "Train Model"
@@ -152,7 +124,7 @@ Now you have:
 
 **Question:** What's the baseline accuracy?
 
-### Exercise 2: Experiment with Hyperparameters (30 min)
+### Exercise 2: Experiment with Hyperparameters
 
 Train 5 different models:
 
@@ -169,7 +141,7 @@ Train 5 different models:
 - Which is fastest to train?
 - What's the trade-off?
 
-### Exercise 3: MLflow Analysis (20 min)
+### Exercise 3: MLflow Analysis
 
 In MLflow UI:
 1. Click "Experiments" → "iris-classification"
@@ -183,7 +155,7 @@ In MLflow UI:
 - What patterns do you see?
 - How does max_depth affect accuracy?
 
-### Exercise 4: Make Predictions (15 min)
+### Exercise 4: Make Predictions
 
 Test these measurements:
 
@@ -205,7 +177,7 @@ Test these measurements:
 
 ---
 
-## 🐳 Docker Deployment (Hour 3)
+## 🐳 Docker Deployment
 
 ### Build Docker Image
 
@@ -244,7 +216,7 @@ docker stop <container_id>
 
 ---
 
-## 🌐 Deploy to Streamlit Cloud (Hour 4)
+## 🌐 Deploy to Streamlit Cloud
 
 ### Step 1: Push to GitHub
 
@@ -285,11 +257,6 @@ Once deployed, you get a URL like:
 https://YOUR_USERNAME-mlops-iris-streamlit-app-RANDOM.streamlit.app
 ```
 
-**Share this link with:**
-- Colleagues
-- Your training audience
-- Anyone who wants to try your model!
-
 ### 🔄 Auto-Deployment (CI/CD Magic!)
 
 **Every time you push to GitHub, Streamlit Cloud automatically:**
@@ -300,6 +267,7 @@ https://YOUR_USERNAME-mlops-iris-streamlit-app-RANDOM.streamlit.app
 
 **Example workflow:**
 ```bash
+
 # Make changes to streamlit_app.py
 vim streamlit_app.py
 
@@ -554,9 +522,7 @@ This is a training project, but you can:
 
 ---
 
-## 📝 Training Session Checklist
-
-### Before Training:
+### Before Implimenting:
 
 - [ ] Python 3.10+ installed
 - [ ] pip working
@@ -565,33 +531,8 @@ This is a training project, but you can:
 - [ ] Internet connection verified
 - [ ] Code editor ready (VS Code recommended)
 
-### During Training:
 
-**Hour 1:**
-- [ ] Environment setup complete
-- [ ] Streamlit app running
-- [ ] Dataset explored
-- [ ] UI navigation understood
-
-**Hour 2:**
-- [ ] MLflow UI running
-- [ ] At least 3 models trained
-- [ ] Experiments compared in MLflow
-- [ ] Best model identified
-
-**Hour 3:**
-- [ ] Docker image built
-- [ ] Container running successfully
-- [ ] Understand Dockerfile
-- [ ] Volume mounting working
-
-**Hour 4:**
-- [ ] GitHub repo created
-- [ ] Code pushed to GitHub
-- [ ] Streamlit Cloud deployment successful
-- [ ] App URL shared with others
-
-### Post-Training:
+### Post-Implimentation:
 
 - [ ] Customize with own dataset
 - [ ] Share deployed app with colleagues
@@ -602,7 +543,7 @@ This is a training project, but you can:
 
 ## 🎯 Success Criteria
 
-By the end of this training, you should be able to:
+By the end of this implimentation, you should be able to:
 
 ✅ **Train** machine learning models with different hyperparameters  
 ✅ **Track** experiments systematically using MLflow  
@@ -639,5 +580,3 @@ By the end of this training, you should be able to:
 ---
 
 **Ready to become an MLOps practitioner? Let's go! 🚀**
-
-Made with ❤️ for MLOps
