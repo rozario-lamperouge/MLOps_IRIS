@@ -150,7 +150,7 @@ if page == "🏠 About":
     
     with col2:
         st.image("https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg", 
-                 caption="Iris Versicolor", use_container_width=True)
+                 caption="Iris Versicolor")
         
         st.metric("Total Samples", "150")
         st.metric("Features", "4")
