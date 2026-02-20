@@ -167,35 +167,6 @@ git push
 | **Versicolor** | 5.9 | 3.0 | 4.2 | 1.5 |
 | **Virginica** | 6.5 | 3.0 | 5.5 | 2.0 |
 
----
-
-## 🎓 Training Session Checklist
-
-### Hour 1: Setup
-- [ ] Virtual environment created
-- [ ] Dependencies installed
-- [ ] Streamlit app running (localhost:8501)
-- [ ] MLflow UI running (localhost:5000)
-
-### Hour 2: Experiments
-- [ ] Trained first model (baseline)
-- [ ] Trained 4 more models (different params)
-- [ ] Compared experiments in MLflow
-- [ ] Identified best model
-
-### Hour 3: Docker
-- [ ] Docker image built
-- [ ] Container running successfully
-- [ ] App accessible in container
-- [ ] Container stopped cleanly
-
-### Hour 4: Deployment
-- [ ] GitHub repo created
-- [ ] Code pushed to GitHub
-- [ ] Streamlit Cloud deployment successful
-- [ ] App URL works and shareable
-
----
 
 ## 💡 Pro Tips
 

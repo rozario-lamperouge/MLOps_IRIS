@@ -27,8 +27,8 @@ mlops-iris/
 
 - Python 3.10+
 - pip
-- Docker Desktop (for Hour 3)
-- GitHub account (for Hour 4)
+- Docker Desktop 
+- GitHub account
 
 ### Step 1: Clone & Setup
 
@@ -502,15 +502,6 @@ docker build -t mlops-iris:latest .
 7. **A/B Testing:** Test multiple models in production
 8. **AutoML:** Automated hyperparameter tuning
 
-### Recommended Learning Path:
-
-**Week 1-2:** Master this project thoroughly
-**Week 3-4:** Add your own dataset
-**Month 2:** Explore advanced MLflow features
-**Month 3:** Learn Kubernetes basics
-**Month 4:** Deploy to cloud (AWS/GCP/Azure)
-
----
 
 ## 🤝 Contributing & Feedback
 

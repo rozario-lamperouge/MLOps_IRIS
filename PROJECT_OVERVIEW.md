@@ -1,6 +1,5 @@
 # 🌸 MLOps Iris Classifier - Complete Package
 
-**Everything you need for a 4-hour MLOps training session!**
 
 ---
 
@@ -81,21 +80,21 @@ By the end of 4 hours, you'll have:
 
 ### Steps:
 
-1. **Setup** (Hour 1)
+1. **Setup**
    - Create virtual environment
    - Install dependencies from `requirements.txt`
    - Run `streamlit_app.py`
 
-2. **Train Models** (Hour 2)
+2. **Train Models*
    - Use Streamlit UI to train models
    - Track experiments with MLflow
    - Compare results
 
-3. **Containerize** (Hour 3)
+3. **Containerize**
    - Build Docker image from `Dockerfile`
    - Run containerized app
 
-4. **Deploy** (Hour 4)
+4. **Deploy**
    - Push to GitHub
    - Deploy to Streamlit Cloud
    - Get shareable URL!
@@ -211,20 +210,6 @@ After this training, participants will be able to:
 └─────────────────────────────────────────────────┘
 ```
 
----
-
-## 🎯 Session Structure (4 Hours)
-
-| Time | Topic | Activity | Deliverable |
-|------|-------|----------|-------------|
-| **Hour 1** | Setup & Introduction | Install, run app | Working local setup |
-| **Hour 2** | Experiment Tracking | Train 5+ models | MLflow experiments |
-| **Hour 3** | Containerization | Build Docker image | Running container |
-| **Hour 4** | Deployment & CI/CD | Deploy to cloud | Live app URL |
-
-**Detailed breakdown in TRAINER_GUIDE.md**
-
----
 
 ## 🛠️ Technical Stack
 
@@ -350,29 +335,6 @@ By the end of the session, participants should have:
 
 **Full troubleshooting guide in README.md**
 
----
-
-## 🚀 Next Steps After Training
-
-**Immediate (Week 1):**
-1. Customize the app with your data
-2. Try different ML models
-3. Share your deployed app
-
-**Short-term (Month 1):**
-1. Add data validation
-2. Implement cross-validation
-3. Add more visualizations
-4. Create batch prediction feature
-
-**Long-term (Month 2-3):**
-1. Explore MLflow Model Registry
-2. Add monitoring (Evidently AI)
-3. Implement A/B testing
-4. Deploy to production cloud (AWS/GCP/Azure)
-5. Add automated retraining
-
----
 
 ## 📝 Files You Need to Deploy
 
@@ -451,7 +413,7 @@ This project is designed to be:
 This is an educational project created for MLOps training.
 Feel free to use, modify, and share with attribution.
 
-**Created for:** NIT Scientists Training Program  
+**Created for:** MLOps Training Program  
 **Version:** 1.0  
 **Last Updated:** February 2026  
 
